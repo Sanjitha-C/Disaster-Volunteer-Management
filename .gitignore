@@ -1,0 +1,25 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Java / Maven
+backend/target/
+*.class
+
+# Local configuration and IDE files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.iml
+
+# Reports and operating system files
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+testing/complexity/vendor/
+testing/complexity/.venv/
